@@ -45,6 +45,7 @@ namespace Education_system
             bool back = false;
             while (!back)
             {
+                Console.WriteLine("O`quv markazi");
                 Console.WriteLine("1. Kurslar");
                 Console.WriteLine("2. Mentorlar");
                 Console.WriteLine("3. Arizalar");
@@ -59,6 +60,7 @@ namespace Education_system
                         bool back1 = false;
                         while (!back1)
                         {
+                            Console.WriteLine("O`quv markazi");
                             Console.WriteLine("1. Add Kurs");
                             Console.WriteLine("2. Update Kurs");
                             Console.WriteLine("3. Delete Kurs");
@@ -110,6 +112,7 @@ namespace Education_system
                         bool back2 = false;
                         while (!back2)
                         {
+                            Console.WriteLine("O`quv markazi");
                             Console.WriteLine("1. Add Mentor");
                             Console.WriteLine("2. Update Mentor");
                             Console.WriteLine("3. Delete Mentor");
@@ -159,11 +162,13 @@ namespace Education_system
                         }
                         break;
                     case "3":
+                        Console.WriteLine("O`quv markazi");
                         center.ListArizalar();
                         Console.ReadKey();
                         Console.Clear();
                         break;
                     case "4":
+                        Console.WriteLine("O`quv markazi");
                         center.About();
                         Console.ReadKey();
                         Console.Clear();
@@ -184,6 +189,7 @@ namespace Education_system
             bool back = false;
             while (!back)
             {
+                Console.WriteLine("O`quvchi");
                 Console.WriteLine("1. Kurslar");
                 Console.WriteLine("2. Mentorlar");
                 Console.WriteLine("3. Arizalar");
@@ -196,11 +202,13 @@ namespace Education_system
                 switch (choice)
                 {
                     case "1":
+                        Console.WriteLine("O`quvchi");
                         center.ListKurslar();
                         Console.ReadKey();
                         Console.Clear();
                         break;
                     case "2":
+                        Console.WriteLine("O`quvchi");
                         center.ListMentorlar();
                         Console.ReadKey();
                         Console.Clear();
@@ -209,6 +217,7 @@ namespace Education_system
                         bool back1 = false;
                         while (!back1)
                         {
+                            Console.WriteLine("O`quvchi");
                             Console.WriteLine("1. Add Ariza");
                             Console.WriteLine("2. Update Ariza");
                             Console.WriteLine("3. Delete Ariza");
@@ -257,6 +266,7 @@ namespace Education_system
                         }
                         break;
                     case "4":
+                        Console.WriteLine("O`quvchi");
                         center.About();
                         Console.ReadKey();
                         Console.Clear();
